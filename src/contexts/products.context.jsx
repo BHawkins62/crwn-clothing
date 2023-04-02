@@ -13,5 +13,5 @@ export const ProductsProvider = ({children}) => {
         <ProductsContext.Provider value={value}>
             {children}
         </ProductsContext.Provider>
-    )
-}
+    );
+};
